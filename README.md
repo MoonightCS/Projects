@@ -1,2 +1,2 @@
-# Some of my projects
+# My projects
 
