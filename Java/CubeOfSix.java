@@ -2,7 +2,7 @@ public class CubeOfSix {
 
     public static void main(String[] args) {
 
-        System.out.println(FastCubeRoot(1));
+        System.out.println(FastCubeRoot(636056));
 
     }
 
