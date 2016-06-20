@@ -13,7 +13,7 @@ public class QueueWithHeap {
     public static void main(String[] args) {
 
         final int sizer = size;
-        // Сортировка массива testArray по убыванию.
+        // Сортировка массива arr по убыванию. Выполняется сортировка за [ n * lg(n) ]
 
         for (int k = 1; k < sizer + 1; k++) {
             siftUp(k);
