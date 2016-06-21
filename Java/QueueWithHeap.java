@@ -88,6 +88,5 @@ public class QueueWithHeap {
     private static int pickMin() {
         return arr[1];
     }
-
-
+    
 }
