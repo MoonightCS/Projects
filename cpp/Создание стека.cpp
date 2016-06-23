@@ -2,6 +2,7 @@
 using namespace std;
 #define const 10
 
+// создание стека
 class stack {
     
     char stck[const];
