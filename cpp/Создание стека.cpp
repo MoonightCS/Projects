@@ -14,7 +14,7 @@ public:
     void push(char ch);
     char pop();
 };
-
+// конструктор
 stack::stack()
 {
     tos = 0;
