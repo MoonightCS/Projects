@@ -27,8 +27,8 @@ public class ArrayQuickSort {
     {
         int i = left, j = right;
         int tmp;
-        //int x = arr[ran.nextInt(right - left) + left];
-        int x = arr[left];
+        int x = arr[ran.nextInt(right - left) + left];
+        //int x = arr[left];
 
         while (i <= j) {
 
