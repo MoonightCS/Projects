@@ -1,7 +1,6 @@
 
 // Сортировка с помощью кучи
 
-
 public class QueueWithHeap {
 
 
@@ -24,7 +23,7 @@ public class QueueWithHeap {
             exMin();
             arr[size + 1] = min;
         }
-
+        // Вывод чисел по возрастанию
         for (int k = sizer; k > 0; k--) {
             System.out.printf("%d ", arr[k]);
         }
