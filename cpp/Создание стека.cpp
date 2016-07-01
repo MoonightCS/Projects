@@ -46,7 +46,7 @@ int main()
 {
     stack s1, s2;
     int i;
-    
+    int j;
     s1.push('a');
     s2.push('x');
     s1.push('b');
