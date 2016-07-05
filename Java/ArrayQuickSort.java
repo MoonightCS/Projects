@@ -63,7 +63,6 @@ public class ArrayQuickSort {
 
     }
 
-
     public static void initArray(int arr[], Random ran) {
 
         for (int i = 0; i < len; i++) {
