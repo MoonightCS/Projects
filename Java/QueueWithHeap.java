@@ -3,7 +3,6 @@
 
 public class QueueWithHeap {
 
-
     static int size = 14;
 
     static int[] arr = {0, 3, 4, 1, 2, 13, 23, 52, 14, 5, 6, 4, 2, 3, 1};
