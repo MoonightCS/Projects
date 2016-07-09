@@ -10,7 +10,6 @@ for i in numbers:
 print(hashMap)
 
 t = 15
-
 for i in numbers:
     if t - i in hashMap:
         if i == t - i:
