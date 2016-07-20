@@ -23,6 +23,17 @@ public class App
 
         App app = new App();
         app.testingSomeshit();
+
+
+
+        // вызов метода doSomeWork через анонимный класс
+        // (классический способ)
+        execute(new IWorker() {
+            @Override
+            public void doSomeWork() {
+                System.out.println("Worker вызван через анонимный класс");
+            }
+        });
     }
 
 
