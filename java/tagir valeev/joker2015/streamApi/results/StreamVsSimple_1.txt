@@ -1,0 +1,221 @@
+# JMH 1.13 (released 18 days ago)
+# VM version: JDK 1.8.0_74, VM 25.74-b02
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ru.sbt.bodya.jmh.MyBenchmark.simple
+
+# Run progress: 0,00% complete, ETA 00:02:30
+# Fork: 1 of 5
+# Warmup Iteration   1: 3,511 ms/op
+# Warmup Iteration   2: 3,471 ms/op
+# Warmup Iteration   3: 3,459 ms/op
+# Warmup Iteration   4: 3,512 ms/op
+# Warmup Iteration   5: 3,432 ms/op
+Iteration   1: 3,443 ms/op
+Iteration   2: 3,417 ms/op
+Iteration   3: 3,500 ms/op
+Iteration   4: 3,509 ms/op
+Iteration   5: 3,485 ms/op
+Iteration   6: 3,380 ms/op
+Iteration   7: 3,367 ms/op
+Iteration   8: 3,509 ms/op
+Iteration   9: 3,439 ms/op
+Iteration  10: 3,472 ms/op
+
+# Run progress: 10,00% complete, ETA 00:02:17
+# Fork: 2 of 5
+# Warmup Iteration   1: 3,559 ms/op
+# Warmup Iteration   2: 3,454 ms/op
+# Warmup Iteration   3: 3,610 ms/op
+# Warmup Iteration   4: 4,192 ms/op
+# Warmup Iteration   5: 3,563 ms/op
+Iteration   1: 3,427 ms/op
+Iteration   2: 3,397 ms/op
+Iteration   3: 3,405 ms/op
+Iteration   4: 3,401 ms/op
+Iteration   5: 3,413 ms/op
+Iteration   6: 3,474 ms/op
+Iteration   7: 3,423 ms/op
+Iteration   8: 3,394 ms/op
+Iteration   9: 3,483 ms/op
+Iteration  10: 3,757 ms/op
+
+# Run progress: 20,00% complete, ETA 00:02:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 3,589 ms/op
+# Warmup Iteration   2: 4,232 ms/op
+# Warmup Iteration   3: 3,650 ms/op
+# Warmup Iteration   4: 3,573 ms/op
+# Warmup Iteration   5: 3,673 ms/op
+Iteration   1: 3,569 ms/op
+Iteration   2: 3,509 ms/op
+Iteration   3: 3,682 ms/op
+Iteration   4: 3,495 ms/op
+Iteration   5: 3,612 ms/op
+Iteration   6: 3,529 ms/op
+Iteration   7: 3,493 ms/op
+Iteration   8: 3,623 ms/op
+Iteration   9: 3,748 ms/op
+Iteration  10: 3,694 ms/op
+
+# Run progress: 30,00% complete, ETA 00:01:47
+# Fork: 4 of 5
+# Warmup Iteration   1: 3,692 ms/op
+# Warmup Iteration   2: 3,622 ms/op
+# Warmup Iteration   3: 3,495 ms/op
+# Warmup Iteration   4: 3,714 ms/op
+# Warmup Iteration   5: 3,577 ms/op
+Iteration   1: 3,505 ms/op
+Iteration   2: 3,579 ms/op
+Iteration   3: 3,554 ms/op
+Iteration   4: 3,648 ms/op
+Iteration   5: 3,664 ms/op
+Iteration   6: 3,595 ms/op
+Iteration   7: 3,550 ms/op
+Iteration   8: 3,515 ms/op
+Iteration   9: 3,634 ms/op
+Iteration  10: 3,503 ms/op
+
+# Run progress: 40,00% complete, ETA 00:01:31
+# Fork: 5 of 5
+# Warmup Iteration   1: 3,647 ms/op
+# Warmup Iteration   2: 3,580 ms/op
+# Warmup Iteration   3: 3,534 ms/op
+# Warmup Iteration   4: 3,732 ms/op
+# Warmup Iteration   5: 3,620 ms/op
+Iteration   1: 3,601 ms/op
+Iteration   2: 3,517 ms/op
+Iteration   3: 3,623 ms/op
+Iteration   4: 3,547 ms/op
+Iteration   5: 3,509 ms/op
+Iteration   6: 3,489 ms/op
+Iteration   7: 3,532 ms/op
+Iteration   8: 3,605 ms/op
+Iteration   9: 3,612 ms/op
+Iteration  10: 3,709 ms/op
+
+
+Result "simple":
+  3,531 ±(99.9%) 0,049 ms/op [Average]
+  (min, avg, max) = (3,367, 3,531, 3,757), stdev = 0,099
+  CI (99.9%): [3,482, 3,580] (assumes normal distribution)
+
+
+# JMH 1.13 (released 18 days ago)
+# VM version: JDK 1.8.0_74, VM 25.74-b02
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ru.sbt.bodya.jmh.MyBenchmark.stream
+
+# Run progress: 50,00% complete, ETA 00:01:16
+# Fork: 1 of 5
+# Warmup Iteration   1: 3,342 ms/op
+# Warmup Iteration   2: 3,328 ms/op
+# Warmup Iteration   3: 3,278 ms/op
+# Warmup Iteration   4: 3,177 ms/op
+# Warmup Iteration   5: 3,279 ms/op
+Iteration   1: 3,266 ms/op
+Iteration   2: 3,214 ms/op
+Iteration   3: 3,262 ms/op
+Iteration   4: 3,207 ms/op
+Iteration   5: 3,338 ms/op
+Iteration   6: 3,147 ms/op
+Iteration   7: 3,278 ms/op
+Iteration   8: 3,309 ms/op
+Iteration   9: 3,151 ms/op
+Iteration  10: 3,281 ms/op
+
+# Run progress: 60,00% complete, ETA 00:01:01
+# Fork: 2 of 5
+# Warmup Iteration   1: 3,457 ms/op
+# Warmup Iteration   2: 3,205 ms/op
+# Warmup Iteration   3: 3,128 ms/op
+# Warmup Iteration   4: 3,136 ms/op
+# Warmup Iteration   5: 3,141 ms/op
+Iteration   1: 3,188 ms/op
+Iteration   2: 3,145 ms/op
+Iteration   3: 3,223 ms/op
+Iteration   4: 3,306 ms/op
+Iteration   5: 3,237 ms/op
+Iteration   6: 3,353 ms/op
+Iteration   7: 3,163 ms/op
+Iteration   8: 3,220 ms/op
+Iteration   9: 3,210 ms/op
+Iteration  10: 3,244 ms/op
+
+# Run progress: 70,00% complete, ETA 00:00:45
+# Fork: 3 of 5
+# Warmup Iteration   1: 3,597 ms/op
+# Warmup Iteration   2: 3,151 ms/op
+# Warmup Iteration   3: 3,247 ms/op
+# Warmup Iteration   4: 3,128 ms/op
+# Warmup Iteration   5: 3,283 ms/op
+Iteration   1: 3,228 ms/op
+Iteration   2: 3,151 ms/op
+Iteration   3: 3,144 ms/op
+Iteration   4: 3,279 ms/op
+Iteration   5: 3,225 ms/op
+Iteration   6: 3,323 ms/op
+Iteration   7: 3,328 ms/op
+Iteration   8: 3,193 ms/op
+Iteration   9: 3,150 ms/op
+Iteration  10: 3,161 ms/op
+
+# Run progress: 80,00% complete, ETA 00:00:30
+# Fork: 4 of 5
+# Warmup Iteration   1: 3,600 ms/op
+# Warmup Iteration   2: 3,497 ms/op
+# Warmup Iteration   3: 3,395 ms/op
+# Warmup Iteration   4: 3,474 ms/op
+# Warmup Iteration   5: 3,308 ms/op
+Iteration   1: 3,353 ms/op
+Iteration   2: 3,284 ms/op
+Iteration   3: 3,309 ms/op
+Iteration   4: 3,304 ms/op
+Iteration   5: 3,302 ms/op
+Iteration   6: 3,409 ms/op
+Iteration   7: 3,448 ms/op
+Iteration   8: 3,408 ms/op
+Iteration   9: 3,468 ms/op
+Iteration  10: 3,382 ms/op
+
+# Run progress: 90,00% complete, ETA 00:00:15
+# Fork: 5 of 5
+# Warmup Iteration   1: 3,286 ms/op
+# Warmup Iteration   2: 3,044 ms/op
+# Warmup Iteration   3: 3,055 ms/op
+# Warmup Iteration   4: 3,044 ms/op
+# Warmup Iteration   5: 3,065 ms/op
+Iteration   1: 3,042 ms/op
+Iteration   2: 3,042 ms/op
+Iteration   3: 3,042 ms/op
+Iteration   4: 3,043 ms/op
+Iteration   5: 3,043 ms/op
+Iteration   6: 3,016 ms/op
+Iteration   7: 3,056 ms/op
+Iteration   8: 3,252 ms/op
+Iteration   9: 3,342 ms/op
+Iteration  10: 3,265 ms/op
+
+
+Result "stream":
+  3,235 ±(99.9%) 0,055 ms/op [Average]
+  (min, avg, max) = (3,016, 3,235, 3,468), stdev = 0,112
+  CI (99.9%): [3,179, 3,290] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:02:33
+
+Benchmark           Mode  Cnt  Score   Error  Units
+MyBenchmark.simple  avgt   50  3,531 ± 0,049  ms/op
+MyBenchmark.stream  avgt   50  3,235 ± 0,055  ms/op
